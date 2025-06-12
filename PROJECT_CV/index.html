@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrahman Salim Saud - Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .contact-info {
+            white-space: nowrap;
+            overflow-x: auto;
+            word-break: normal;
+        }
+    </style>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="icon.jpg" alt="Profile" class="profile-icon">
+                    Abdulrahman Saud
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="dynamic-gradient-text">Data Scientist | AI Specialist</h1>
+                <p>I focus on using data to solve real-world problems. My work includes analyzing datasets, building machine learning models, and creating interactive dashboards that help people make data-driven decisions. I've worked on projects like predicting loan defaults and analyzing NYC taxi data using big data tools. I enjoy combining technical skills with creative thinking to turn raw data into useful insights, and I'm always exploring new areas like Artificial Intelligence to stay up to date with the latest in tech.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="dynamic-gradient-text">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">R</span>
+                        <span class="skill-item">Scikit-learn</span>
+                        <span class="skill-item">TensorFlow</span>
+                        
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Analysis</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Power BI</span>
+                        <span class="skill-item">Tableau</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">R</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Visualization</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">Seaborn</span>
+                        <span class="skill-item">Plotly</span>
+                        <span class="skill-item">Tableau</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-box">
+                <h2 class="dynamic-gradient-text">About Me</h2>
+                <div class="about-flex">
+                    <div class="about-text">
+                        <p>I'm Abdulrahman Salim Saud, a Data Science student at the University of Hafr Al Batin with a GPA of 3.9 / 4.0. I have experience in Python, R, SQL, and tools like Power BI and Tableau, and I've worked on real-world projects involving machine learning and big data analytics.
+
+                            I've completed a course in Artificial Intelligence, interned as a Data Analyst, supported IT services at the university, and taught computer skills at ALFOA Institute. I'm passionate about solving problems through data and enjoy turning complex information into clear insights.</p>
+                        <div class="about-details">
+                            <div class="about-detail"><i class="fas fa-graduation-cap"></i> Bachelor's in Data Science, 2021–2025</div>
+                            <div class="about-detail"><i class="fas fa-university"></i> University of Hafr Al Batin</div>
+                            <div class="about-detail"><i class="fas fa-award"></i> First Honor Class</div>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3.9/4 GPA</span>
+                            <span class="stat-label"></span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="summary" class="summary-section">
+            <h2 class="dynamic-gradient-text">Summary Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category"><h3><i class="fas fa-code"></i> Programming</h3><p>Python, R, SQL, HTML, CSS</p></div>
+                <div class="skill-category"><h3><i class="fas fa-layer-group"></i> Frameworks</h3><p>Pandas, NumPy, Scikit-learn, Matplotlib, Flask, Ggplot2, PySpark</p></div>
+                <div class="skill-category"><h3><i class="fas fa-wrench"></i> Tools</h3><p>Power BI, Excel, PowerPoint, MySQL, Tableau</p></div>
+                <div class="skill-category"><h3><i class="fas fa-desktop"></i> Platforms</h3><p>Jupyter Notebook, PyCharm, Visual Studio Code</p></div>
+                <div class="skill-category"><h3><i class="fas fa-users"></i> Soft Skills</h3><p>Problem Solving, Time Management, Communication, Public Speaking, Social Media Creation</p></div>
+                <div class="skill-category"><h3><i class="fas fa-language"></i> Languages</h3><p>Arabic and English</p></div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2 class="dynamic-gradient-text">Experience</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3><i class="fas fa-chart-line"></i> Data Analyst Intern</h3>
+                    <div class="project-meta">University of Hafr Al Batin &mdash; Jun 2024 to Aug 2024</div>
+                    <ul>
+                        <li>Analyzed and visualized datasets using Python to support academic research and institutional reporting.</li>
+                        <li>Designed interactive dashboards to track employee performance metrics.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-laptop-code"></i> IT Assistant (Part-Time)</h3>
+                    <div class="project-meta">University of Hafr Al Batin &mdash; Two Academic Semesters</div>
+                    <ul>
+                        <li>Installed, configured, and maintained computer systems, networks, and software for faculty and staff.</li>
+                        <li>Provided technical support and troubleshooting, improving system efficiency and reducing downtime.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Instructor</h3>
+                    <div class="project-meta">ALFOA Institute, Hafr Al Batin</div>
+                    <ul>
+                        <li>Delivered lectures and workshops in computer fundamentals and productivity software.</li>
+                        <li>Assisted in creating curriculum content and instructional materials to enhance student learning outcomes.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="dynamic-gradient-text">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3><i class="fas fa-chart-pie"></i> Loan Default Prediction Model</h3>
+                    <div class="project-meta">Graduation Project</div>
+                    <ul>
+                        <li>Developed a machine learning model to predict loan defaults using real-world data from Lending Club.</li>
+                        <li>Built and compared Decision Tree, Random Forest, and SVM models; Random Forest achieved 85% accuracy.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-database"></i> NYC Taxi Data Analysis</h3>
+                    <div class="project-meta">Big Data Project</div>
+                    <ul>
+                        <li>Processed and analyzed trip data spanning from 2009 to 2024.</li>
+                        <li>Explored passenger behavior, seasonal trends, and fare distributions using PySpark big data frameworks.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-chart-bar"></i> Student Performance Analysis Project</h3>
+                    <div class="project-meta"> Data Science Project</div>
+                    <div class="project-meta">Tools Used: Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn</div>
+                    <ul>
+                        <li>Analyzed the Student Performance dataset to understand factors influencing math, reading, and writing scores.</li>
+                        <li>Female students generally scored higher than males, especially in reading and writing.</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2 class="dynamic-gradient-text">My Work Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="IMG_3846.jpg" alt="P roject 1">
+                    <p>    <b>Panel Discussion for Graduating Students</b>            </p>
+                </div>
+                <div class="gallery-item">
+                    <img src="workshop.jpg" alt="Project 2">
+                    <p><b>My Workshop about Intro Into Data Science</b></p>
+                </div>
+                <div class="gallery-item">
+                    <img src="0U5A3936.JPG" alt="Project 2">
+                    <p> <b>Graduation With first honor class</b></p>
+                </div>
+                <div class="gallery-item center-item">
+                    <img src="hackathon.jpg" alt="Hackathon">
+                    <p> <b>Hackathon Achievement</b> </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements-section">
+            <h2 class="dynamic-gradient-text">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement"><i class="fas fa-certificate"></i> English Language Course – FAO Institute (6 months)</div>
+                <div class="achievement"><i class="fas fa-laptop"></i> Workshop: Intro to Data Science</div>
+                <div class="achievement"><i class="fas fa-medal"></i> 1st Place in Translation Hackathon</div>
+                <div class="achievement"><i class="fas fa-file-alt"></i> Recommendation Letter</div>
+                <div class="achievement"><i class="fas fa-user-tie"></i> Head of Students Club, Computer Science & Engineering</div>
+                <div class="achievement"><i class="fas fa-chalkboard"></i> Teaching English (Part-time)</div>
+                <div class="achievement"><i class="fas fa-file-word"></i> Microsoft Office Course – FAO Institute (6 months)</div>
+                <div class="achievement"><i class="fas fa-chart-bar"></i> Certificate: Data Visualization by Tableau</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="dynamic-gradient-text">Get In Touch</h2>
+            <div class="contact-merged-grid">
+                <div class="contact-info-cards">
+                    <div class="contact-card highlight">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-info">abdulrahmansaud1998@outlook.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <div class="contact-label">Phone</div>
+                            <div class="contact-info">+966538081148</div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="contact-label">Location</div>
+                            <div class="contact-info">Eastern, Saudi Arabia</div>
+                        </div>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <div id="formSuccess" class="form-success" style="display:none;">Thank you! Your message has been sent.</div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Abdulrahman Salim Saud. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileMenuBtn.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            });
+        });
+
+        // Initialize EmailJS
+        (function(){
+            emailjs.init('eQGhKo5Qbvmxvt8OD'); // Public Key
+        })();
+
+        const contactForm = document.getElementById('contactForm');
+        const formSuccess = document.getElementById('formSuccess');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Send form using EmailJS
+                emailjs.sendForm('service_0ymqo3u', 'template_kyj3qkj', this)
+                    .then(function() {
+                        formSuccess.textContent = 'Thank you! Your message has been sent.';
+                        formSuccess.style.display = 'block';
+                        contactForm.reset();
+                        setTimeout(() => { formSuccess.style.display = 'none'; }, 4000);
+                    }, function(error) {
+                        formSuccess.textContent = 'Oops! Something went wrong. Please try again.';
+                        formSuccess.style.display = 'block';
+                    });
+            });
+        }
+    </script>
+</body>
+</html> 
